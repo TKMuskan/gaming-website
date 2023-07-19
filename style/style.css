@@ -26,6 +26,12 @@ nav {
     font-size: 2.8em;
     font-weight: 800;
 }
+.logo-name2{
+    color: #ffffff;
+    font-size: 2.8em;
+    font-weight: 800;
+    text-align: center;
+}
 
 .pink {
     color: #ee3ba3;
@@ -135,6 +141,11 @@ nav a {
     width: 5rem;
     height: 2.5rem;
     padding-right: 10%;
+}
+.main-icon2{
+    width: 5rem;
+    height: 2.5rem;
+    
 }
 
 .follow-icon1 {
@@ -372,4 +383,74 @@ nav a {
 
 .overlap-image {
     justify-content: center;
+}
+footer{
+    background-color: #070125;
+    margin-top: 10%;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    padding-top: 5%;
+}
+.footer-list >ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-list li {
+    list-style: none;
+    margin-right: 3em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: small;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.contact-icon{
+    width: 2.5em;
+    height: 2.5em;
+    padding-top: 3%;
+    
+}
+#settings{
+    padding-top: 3%;
+    gap: 4%;
+    color: #2b2b2b;
+}
+.last-text{
+    text-align: center;
+    color: #353535;
+    font-size: 0.8em;
+    padding-bottom: 8%;
+}
+.footer-list2 >ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-list2 li {
+    list-style: none;
+    margin-right: 3em;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.footer-list2 a {
+    text-decoration: none;
+    color: #646464;
+    font-size: small;
+    
 }
