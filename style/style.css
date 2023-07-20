@@ -26,7 +26,8 @@ nav {
     font-size: 2.8em;
     font-weight: 800;
 }
-.logo-name2{
+
+.logo-name2 {
     color: #ffffff;
     font-size: 2.8em;
     font-weight: 800;
@@ -142,10 +143,11 @@ nav a {
     height: 2.5rem;
     padding-right: 10%;
 }
-.main-icon2{
+
+.main-icon2 {
     width: 5rem;
     height: 2.5rem;
-    
+
 }
 
 .follow-icon1 {
@@ -247,9 +249,9 @@ nav a {
 
 .we-are-gamer-text {
     text-align: right;
-    color: #3b2647;
+    color: #452b53;
     padding-right: 12em;
-    font-size: small;
+    font-size: 1em;
     font-weight: 600;
 }
 
@@ -333,7 +335,8 @@ nav a {
 
 }
 
-#instantly, #instantly2 {
+#instantly,
+#instantly2 {
     font-size: 1em;
     font-weight: 900;
     padding-top: 0;
@@ -343,7 +346,8 @@ nav a {
     -webkit-text-fill-color: transparent;
 }
 
-.play-instantly-title, .play-instantly-title2 {
+.play-instantly-title,
+.play-instantly-title2 {
     max-width: 50vw;
     text-align: right;
     font-size: 2.5em;
@@ -352,14 +356,17 @@ nav a {
     margin-top: -0.5em;
 }
 
-.text-after-instantly-title, .text-after-instantly-title2 {
+.text-after-instantly-title,
+.text-after-instantly-title2 {
     max-width: 50vw;
     text-align: right;
     font-size: 1em;
     color: #3b2647;
     margin-top: -0.5em;
 }
-.play-instantly-title2, .text-after-instantly-title2{
+
+.play-instantly-title2,
+.text-after-instantly-title2 {
     text-align: left;
 }
 
@@ -384,22 +391,25 @@ nav a {
 .overlap-image {
     justify-content: center;
 }
-footer{
+
+footer {
     background-color: #070125;
     margin-top: 10%;
 }
-.footer-icon{
+
+.footer-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2%;
     padding-top: 5%;
 }
-.footer-list >ul {
+
+.footer-list>ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .footer-list li {
@@ -412,34 +422,39 @@ footer a {
     color: #ffffff;
     font-size: small;
 }
-.contact{
+
+.contact {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2%;
 }
-.contact-icon{
+
+.contact-icon {
     width: 2.5em;
     height: 2.5em;
     padding-top: 3%;
-    
+
 }
-#settings{
+
+#settings {
     padding-top: 3%;
     gap: 4%;
     color: #2b2b2b;
 }
-.last-text{
+
+.last-text {
     text-align: center;
     color: #353535;
     font-size: 0.8em;
     padding-bottom: 8%;
 }
-.footer-list2 >ul {
+
+.footer-list2>ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .footer-list2 li {
@@ -448,9 +463,219 @@ footer a {
     padding-top: 3%;
     padding-bottom: 2%;
 }
+
 .footer-list2 a {
     text-decoration: none;
     color: #646464;
     font-size: small;
-    
 }
+
+/* Responsive style */
+
+/* Mobile Devices */
+@media screen and (max-width: 425px) {
+    .nav-option-side {
+        flex-direction: column;
+        align-items: center;
+        gap: 3em;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-icon {
+        margin-top: 4em;
+    }
+
+    .main-icon {
+        width: 4em;
+        height: 2.5em;
+    }
+
+    .follow-button {
+        width: 200%;
+        margin-left: -3em;
+    }
+
+    .banner {
+        background: none;
+        padding: 5rem 5rem 0 8rem;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .banner-image {
+        margin-left: -5em;
+        width: 150%;
+        height: 150%;
+    }
+
+    .banner-text {
+        background: none;
+        margin-top: 110%;
+        font-size: 1em;
+        width: 80vw;
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-button {
+        gap: 5%;
+        margin-right: 2.5em;
+    }
+
+    .fist-line {
+        font-size: 2em;
+        text-align: center;
+        margin-right: 1.5em;
+    }
+
+    .banner-title {
+        font-size: 3.5em;
+        text-align: center;
+        margin-right: 1em;
+    }
+
+    .after-title {
+        justify-content: center;
+        align-items: center;
+        margin-top: 1%;
+    }
+
+    .text {
+        margin-top: -1%;
+    }
+
+    .we-are-gamer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .we-are-gamer-image {
+        margin-left: -4.5em;
+        margin-top: -7em;
+        width: 80%;
+        height: 15em;
+    }
+
+    .banner-title2 {
+        font-size: 3em;
+        padding-top: 0;
+        margin-top: -0.5em;
+        margin-left: 1em;
+    }
+
+    .we-are-gamer-text {
+        text-align: center;
+        word-spacing: normal;
+        margin-left: 10em;
+    }
+    #know-more{
+        margin-top: 2em;
+        margin-left: 1em;
+        width: 100%;
+        height: 100%;
+        font-size: small;
+    }
+    .we-are-gamer-short-text{
+        text-align: center;
+        font-size: small;
+    }
+    .online-games-funny-videos{
+        margin-top: 4em;
+    }
+    #funny-videos{
+        margin-left: 0;
+        
+    }
+    #videos{
+        margin-left: -1.5em;
+    }
+    .funny-videos-card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .Play-ins{
+        margin-top: 8em;
+        
+    }
+    .play-instantly{
+        flex-direction: column;
+    }
+    .play-instantly-title {
+        text-align: center;
+        font-size: 2em;
+    }
+    .text-after-instantly-title{
+        text-align: center;
+        font-size: 0.8em;
+    }
+    .instantly-image{
+        width: 20%;
+        height: 40%;
+        margin-top: 3em;
+        margin-left: -7em;
+    }
+    #play{
+        flex-direction: column-reverse;
+    }
+    .play-instantly-title2{
+        font-size: 1.5em;
+        margin-top: -4em;
+    }
+    #instantly-image{
+        margin-left: -5.5em;
+    }
+    .main-icon2{
+        width: 2em;
+        height: 1em;
+    }
+    .logo-name2{
+        font-size: 1em;
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: baseline;
+    }
+    .contact-icon{
+        width: 1em;
+        height: 1em;
+        margin-left: 4em;
+    }
+    #footer-list li a{
+            font-size: 0.5em;
+            padding: 2%;
+    }
+    #footer-list2 li a{
+        font-size: 0.5em;
+        padding: 2%;
+        margin-left: 4em;
+}
+    #footer-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin-left: 2em;
+    }
+    #footer-list2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .last-text{
+        font-size: 0.5em;
+    }
+    .last-text{
+        font-size: 0.5em;
+    }
+
+    }
+    
